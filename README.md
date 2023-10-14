@@ -13,7 +13,7 @@ This project follows an open-source and community-driven development model. Cont
 ## Requirements
 
 - Gentoo Linux
-- Portage utilities (emerge, equery)
+- Portage utilities (emerge, equery, etc.)
 - Dialog package for the menu interface
 
 ## Usage
@@ -29,7 +29,6 @@ This project follows an open-source and community-driven development model. Cont
 - **Enable Debugging:** Enable debugging by setting 'set -x', and/or native portage debug.
 - **Configure Compression:** Configure compression options (zstd, xz, gzip, bzip2).
 - **Exit:** Quit the script.
-- **(more..)**
 
 ### Configuration
 
@@ -66,7 +65,7 @@ The power of **jportage** lies in its extensibility. Future development efforts 
 
 This project welcomes contributions. Feel free to fork the repository and submit pull requests. Join the community in shaping the future of Gentoo administration with **jportage**.
 
-## jportage - Gentoo Portage Administration Script
+# jportage - Gentoo Portage Administration Script
 
 **jportage** is a script that simplifies Gentoo Portage administration. It provides a menu-driven interface for syncing the Portage tree, updating the system, creating backups, enabling debugging, and configuring compression.
 
@@ -84,9 +83,11 @@ This script is licensed under the GNU Affero General Public License (AGPL-3). Yo
 
 To use **jportage**, you can run it from the command line with various options. Here are the available options:
 
-- `-h, --help`: Display the help message.
-- `-m, --menu`: Start the menu interface.
-- `-p, --pretend`: Enable pretend mode, no administrative actions are taken.
+- `-s, --sync`: Sync and update the Portage system.
+- `-b, --backup`: Create a backup of your system.
+- `-d, --debug`: Enable debugging mode.
+- `-c, --compression`: Configure compression settings.
+- `-h, --help`: Display the help.
 
 ### Features
 
@@ -112,6 +113,4 @@ sudo ./jportage.sh [OPTIONS]
 
 # Any omissions in this README.md are purely coincidental.
 
-
 # References to missing features are on a todo list I'll (probably slowly) work on putting up.
-
