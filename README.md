@@ -1,0 +1,2 @@
+# jportage
+gentoo manager
