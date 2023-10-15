@@ -23,9 +23,9 @@
 # For more information about the AGPL-3 license, please visit:
 # <https://www.gnu.org/licenses/agpl-3.0.html>
 #
-# Author: Your Name
-# Version: 1.0
-# Date: October 31, 2023
+# Author: TBD ;-)
+# Version: 0.01
+# Date: October 11, 2023
 
 
 # Function to display help information
